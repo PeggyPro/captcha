@@ -7,6 +7,14 @@ Changelog
 
 ----
 
+v0.7.1
+------
+
+Released on Mar 1, 2025
+
+- Add python 3.12, 3.13 supports.
+- Replace secrets.randint with secure alternatives.
+
 v0.7.0
 ------
 

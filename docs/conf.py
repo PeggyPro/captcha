@@ -21,6 +21,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.extlinks",
     "sphinx_sitemap",
+    "shibuya.sponsors",
 ]
 
 extlinks = {
@@ -34,6 +35,7 @@ intersphinx_mapping = {
 
 html_baseurl = "https://captcha.lepture.com/"
 sitemap_url_scheme = "{link}"
+sponsors_json_url = "https://cdn.jsdelivr.net/gh/lepture/lepture/sponsors.json"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -64,7 +66,10 @@ html_theme_options = {
     "carbon_ads_placement": "captchalepturecom",
     "og_image_url": "https://captcha.lepture.com/_static/icon.png",
     "nav_links": [
-        {"title": "Sponsor me", "url": "https://github.com/sponsors/lepture"},
+        {
+            "title": "Support me",
+            "url": "/sponsors",
+        },
     ]
 }
 
